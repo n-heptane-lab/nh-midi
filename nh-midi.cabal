@@ -5,9 +5,14 @@ license:             BSD3
 license-file:        LICENSE
 author:              Jeremy Shaw
 maintainer:          jeremy@n-heptane.com
+homepage:            https://www.github.com/n-heptane-lab/nh-midi
 category:            Sound
 build-type:          Simple
 cabal-version:       >=1.10
+
+source-repository head
+    type:     git
+    location: git://github.com/n-heptane-lab/nh-midi.git
 
 library
   exposed-modules:     Sound.NH.MIDI.Core,
