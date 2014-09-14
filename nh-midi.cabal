@@ -1,0 +1,18 @@
+name:                nh-midi
+version:             0.1.0.0
+synopsis:            A simple library for working with streaming MIDI data
+license:             BSD3
+license-file:        LICENSE
+author:              Jeremy Shaw
+maintainer:          jeremy@n-heptane.com
+category:            Sound
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Sound.NH.MIDI.Core,
+                       Sound.NH.MIDI.Parse
+  build-depends:       base  >= 4.7 && < 4.8,
+                       pipes >= 4.1 && < 4.2
+  default-language:    Haskell2010
+
