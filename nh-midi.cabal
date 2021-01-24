@@ -17,7 +17,7 @@ source-repository head
 library
   exposed-modules:     Sound.NH.MIDI.Core,
                        Sound.NH.MIDI.Parse
-  build-depends:       base  >= 4.7 && < 4.8,
-                       pipes >= 4.1 && < 4.2
+  build-depends:       base  >= 4.7 && < 4.13,
+                       pipes >= 4.1 && < 4.4
   default-language:    Haskell2010
 
